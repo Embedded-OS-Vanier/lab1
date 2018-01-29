@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration device="PIC24FJ128GA010" mcc_version="v2.25.2">
+    <managers>
+        <manager generated="true" name="Pin Manager" reloadPin="manual">
+            <setting name="package" option="TQFP100"/>
+            <setting name="sorting" option="true"/>
+            <file checksum="1853551282" modified="false" name="pin_manager.c" path="mcc_generated_files/pin_manager.c"/>
+            <file checksum="2701081542" modified="false" name="pin_manager.h" path="mcc_generated_files/pin_manager.h"/>
+        </manager>
+        <manager generated="true" name="System" reloadPin="manual">
+            <initializer comment="" name="Initialize">
+                <setting name="DOZE" option="1:8" register="CLKDIV"/>
+                <setting name="DOZEN" option="disabled" register="CLKDIV"/>
+                <setting name="RCDIV" option="FRC/1" register="CLKDIV"/>
+                <setting name="ROI" option="disabled" register="CLKDIV"/>
+            </initializer>
+            <setting name="IESO" option="ON"/>
+            <setting name="FNOSC" option="FRCPLL"/>
+            <setting name="POSCMOD" option="NONE"/>
+            <setting name="OSCIOFNC" option="OFF"/>
+            <setting name="FCKSM" option="CSECME"/>
+            <setting name="WDTPS" option="PS32768"/>
+            <setting name="COE" option="OFF"/>
+            <setting name="ICS" option="PGx2"/>
+            <setting name="FWPSA" option="PR128"/>
+            <setting name="WINDIS" option="ON"/>
+            <setting name="GWRP" option="OFF"/>
+            <setting name="GCP" option="OFF"/>
+            <setting name="FWDTEN" option="ON"/>
+            <setting name="BKBUG" option="OFF"/>
+            <setting name="JTAGEN" option="ON"/>
+            <setting name="Primary Oscillator" option="3500000"/>
+            <setting name="Secondary Oscillator" option="31000"/>
+            <setting name="generateConfigBits" option="true"/>
+            <file checksum="1597470724" modified="false" name="mcc.c" path="mcc_generated_files/mcc.c"/>
+            <file checksum="2803762808" modified="false" name="mcc.h" path="mcc_generated_files/mcc.h"/>
+        </manager>
+    </managers>
+</configuration>
