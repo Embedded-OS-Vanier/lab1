@@ -37,7 +37,7 @@ int main(void) {
      
     /* Register the event handler */
   
-    TaskCreate(task2,7);
+    //TaskCreate(task2,7);
 
     /* Finally start the task manager. */
     TaskManager();
