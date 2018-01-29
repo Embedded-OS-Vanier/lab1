@@ -32,7 +32,7 @@ int main(void) {
     TickInit();
     initTimer2();
     //    initTimer3(7812);   // 8 Hz
-    initTimer3(31250);   // 2 Hz   
+    // initTimer3(31250);   // 2 Hz   
     LCDInit();
      
     /* Register the event handler */
