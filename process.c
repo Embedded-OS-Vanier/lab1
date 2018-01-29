@@ -161,8 +161,7 @@ void process8(void){
             else if(shift == 0b100000001) shift  = 0b0000000011;
             else shift = shift << 1;
               __delay32(DELAY50MS);
-               __delay32(DELAY20MS); // for test only
-             //  __delay32(DELAY10MS); // for test only
+               __delay32(DELAY20MS); 
 
 }
 void process9(void){
