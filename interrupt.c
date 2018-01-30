@@ -23,7 +23,7 @@ void _ISR_NO_PSV _T2Interrupt( void )
 
 void _ISR_NO_PSV _T3Interrupt( void )
 {
-    task9();
+    //task9();
     //task8();
         _T3IF = 0;
 }
